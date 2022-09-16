@@ -7,10 +7,10 @@ import EventLayoutView from '@/views/event/EventLayoutView.vue'
 import EventDetailView from '@/views/event/EventDetailView.vue'
 import NotFoundView from '@/views/NotFoundView.vue'
 import NetWorkErrorView from '@/views/NetworkErrorView.vue'
+import AddEvent from '@/views/EventForm.vue'
 import NProgress from 'nprogress'
 import GStore from '@/store'
 import EventService from '@/services/EventService'
-import AddEvent from '@/views/EventForm.vue'
 const routes = [
   {
     path: '/',

@@ -6,7 +6,6 @@
     <router-link :to="{ name: 'EventList' }">Home</router-link> |
     <router-link :to="{ name: 'About' }">About</router-link> |
     <router-link :to="{ name: 'AddEvent' }">New Event</router-link>
-    <router-link :to="{ name: 'about' }">About</router-link>
   </nav>
   <router-view />
 </template>
@@ -41,7 +40,6 @@ export default {
 nav {
   padding: 30px;
 }
-
 nav a {
   font-weight: bold;
   color: #2c3e50;
